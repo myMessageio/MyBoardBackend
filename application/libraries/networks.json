@@ -1,0 +1,43 @@
+{  "mumbai":{
+    "contractaddress":"0xA39053611C4BC297Be927E9fbe6CF8dF2C37d109",           
+    "startblock":28332374,           
+    "rpc_url":"https://matic-mumbai.chainstacklabs.com"  ,
+    "network":"mumbai"
+    },
+
+"mbase":{
+        "contractaddress":"0xA39053611C4BC297Be927E9fbe6CF8dF2C37d109",
+        "startblock":2914340,           
+        "rpc_url":"https://rpc.api.moonbase.moonbeam.network",
+        "network":"mbase"     
+        },
+    
+"testbsc":{
+    "contractaddress":"0xA39053611C4BC297Be927E9fbe6CF8dF2C37d109",
+    "startblock":23224239,           
+    "rpc_url":"https://bsctestapi.terminet.io/rpc",
+    "network":"testbsc"     
+    },
+    
+"polygon":{
+    "contractaddress":"611C4BC297Be9",
+    "startblock":0,           
+    "rpc_url":"https://polygonapi.terminet.io/rpc",
+    "network":"polygon"     
+    },
+    
+"moonbeam":{
+    "contractaddress":"0xA39053611C4BC297Be927E9fbe6CF8dF2C37d109",
+    "startblock":1962542,           
+    "rpc_url":"https://rpc.ankr.com/moonbeam",
+    "network":"moonbeam"     
+    },
+    
+"bsc":{
+    "contractaddress":"0xA39053611C4BC297Be927E9fbe6CF8dF2C37d109",
+    "startblock":21717772,           
+    "rpc_url":"https://bsc-dataseed.binance.org/",
+    "network":"bsc"     
+    }
+
+}
