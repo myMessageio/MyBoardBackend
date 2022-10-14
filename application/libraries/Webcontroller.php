@@ -534,7 +534,7 @@ class Webcontroller  {
 		if($checkres->num_rows==1){
 			$checkRows=$checkres->fetch_all(MYSQLI_ASSOC);
 			if($checkRows[0]['transactionHash']!==$params['transactionHash']){
-				$delqry="DELETE FROM tbm_channels where channelId= '".$params["channelId"]."' and network='".$params['network']."' and  contractaddress='".$params['contractaddress']."'";	
+				$delqry="DELETE FROM tbm_posts where  postId='".$params['postId']."' and channelId= '".$params["channelId"]."' and network='".$params['network']."' and  contractaddress='".$params['contractaddress']."'";	
 				$delres=$mysqli->query($delqry);
 			}else{
 				return array("result"=>"success","log"=>"this post is exist");

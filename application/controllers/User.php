@@ -5,7 +5,7 @@ Header('Access-Control-Allow-Headers: *');
 header('Content-type: application/json');
 
 
-class User extends CI_Controller {
+class User extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.

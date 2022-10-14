@@ -4,7 +4,7 @@ header('Access-Control-Allow-Origin: *');
 Header('Access-Control-Allow-Headers: *');
 header('Content-type: application/json');
 
-class Post extends CI_Controller {
+class Post extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.
